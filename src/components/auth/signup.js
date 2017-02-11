@@ -9,6 +9,7 @@ class Signup extends Component {
   }
 
   renderAlert() {
+    // console.log(this.props)
     if (this.props.errorMessage) {
       return (
         <div className="alert alert-danger">
